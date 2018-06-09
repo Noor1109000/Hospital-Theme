@@ -1,0 +1,332 @@
+/*-------------desktop---------*/
+@media screen and (min-width: 1200px){
+.imp-top-content-01 {
+  left: 28px;
+  padding: 18px 22px 24px;
+
+  top: -22px;
+
+}
+
+.imp-top-content-03 {
+  border-radius: 2px 0;
+  left: -16px;
+  top: -23px;
+}
+
+.opening-time {
+  color: #fff;
+  font-size: 0.888889rem;
+  font-weight: 700;
+  padding: 0 5em 1.99em;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.dept-widget-schedule {
+ margin-bottom: 0;
+
+}
+
+
+}
+
+/*-------------laptop---------*/
+@media screen and (min-width: 992px) and (max-width: 1199px){
+.logo > img {
+width: 95%;
+}
+
+.nav > li > .menu-style {
+  padding-left: 2px;
+
+}
+
+.nav > li >.menu-style-appointment{
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.imp-top-content-01 {
+  padding: 1em 1.46em 0.33em;
+
+}
+
+.emg-num-font, .emg-email-font {
+  font-size: 2.856rem;
+}
+.important-notice__label {
+  margin: 0 auto 0.5em 10em;
+
+}
+
+.email-icon {
+
+  letter-spacing: 0.3px;
+}
+
+.foot_top_emg_font {
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.emg-number {
+letter-spacing: 0px;
+}
+
+.email-icon {
+  letter-spacing: 0.3px;
+}
+
+
+}
+
+
+
+
+/*----------tablet--------*/
+@media screen and (max-width: 991px) and (min-width: 768px){
+
+.logo {
+  line-height: 0;
+}
+.logo::before {
+  background: transparent;
+
+}
+
+.logo::after {
+  background: transparent none repeat scroll 0 0;
+}
+.logo > img {
+  left: 20px;
+  top: 1.3em;
+  width: 100%;
+}
+
+.nav > li > .menu-style {
+  font-size: 1em;
+  padding-bottom: 2.15em;
+  padding-left: 0;
+  padding-top: 2.15em;
+   letter-spacing: 0px;
+  transition: all 0.2s ease 0s;
+}
+
+.doctors-list {
+  left: -300px;
+  top: 95px;
+  width: 50em;
+ 
+}
+.list-01 > a {
+  display: inline-block;
+  margin: 0;
+  padding: 2em .5em;
+}
+
+.list-01 {
+  display: inline-block;
+  margin-right: 0;
+  text-align: center;
+}
+
+.menu-style-appointment {
+  padding: 0 !important;
+}
+
+.appointment {
+  background: #079bbb none repeat scroll 0 0;
+  font-size: 12px;
+  margin: 1.3em 0 0;
+  padding: 12px;
+}
+.dept-widget-schedule {
+  border-radius: 1px;
+  left: -11px;
+  margin-bottom: 1.94444rem;
+  position: relative;
+  top: -18px;
+}
+.opening-time {
+
+  padding: 1.6em 3.5em;
+}
+
+.imp-top-content-01 {
+  padding: 18px 22px 37px;
+ 
+}
+
+.important-notice__label {
+  margin: 0 auto 1.5em 5em;
+}
+
+.hos-story-title {
+  font-size: 2em;
+}
+
+.textwidget {
+  margin: 0 auto 5em;
+  text-align: center;
+  width: 70%;
+}
+
+.text_widge_tbutton {
+  margin-left: 0em;
+  
+
+}
+
+.widget_nav_menu {
+  border: 1px solid #ccc;
+  text-align: center;
+  margin-bottom: 5em;
+  
+}
+
+.foot_top_emg_font {
+  color: rgba(0, 0, 0, 0.35);
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-left: 0em;
+}
+
+
+.emg-number {
+  display: block;
+  font-size: 1.3em;
+}
+
+
+
+}
+
+
+
+
+/*----mobile-*/
+
+@media screen and (max-width: 767px){
+.header-bottom {
+  height: 6em;
+}
+.logo {
+  line-height: 0;
+}
+
+.logo > img {
+  left: 20px;
+  position: absolute;
+  top: 15px;
+  width: 55%;
+  z-index: 12;
+}
+.logo::before {
+  background: transparent;
+
+}
+
+.logo::after {
+  background: transparent none repeat scroll 0 0;
+}
+
+#menu {
+  background: #099dbd none repeat scroll 0 0;
+  position: relative;
+  top: 83px;
+  z-index: 20;
+}
+
+.nav.navbar-nav.navbar-right a {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+  color: white;
+  font-size: 1.2em;
+  padding: 1.4em;
+  text-align: center;
+}
+
+.nav.navbar-nav.navbar-right a:hover{
+  background:rgba(148,181,231,.1);
+}
+
+
+
+.navbar-toggle.mobile-button {
+  position: absolute;
+  right: 0;
+  top: -80px;
+}
+
+.navbar-toggle.mobile-button {
+  background: #16A1BF;
+  margin-top: 1.5em;
+}
+
+.header-bottom {
+  height: 6em;
+}
+
+
+.imp-top-section {
+  height: 40em;
+}
+
+.imp-top-content-01 {
+  top: 250px;
+  width: 92%;
+
+}
+
+.important-notice__label {
+  margin: 0 auto 1em 7.5em;
+  padding: 0.5em;
+  width: 45%;
+}
+
+.important-notice__text {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.hos-story-left, .hos-story-right {
+  margin: 0;
+}
+
+
+.textwidget {
+  margin: 0 auto 5em;
+  text-align: center;
+  width: 70%;
+}
+
+.text_widge_tbutton {
+  margin-left: 0em;
+  
+
+}
+
+.widget_nav_menu {
+  border: 1px solid #ccc;
+  text-align: center;
+  margin-bottom: 5em;
+  
+}
+
+.foot_top_emg_font {
+  color: rgba(0, 0, 0, 0.35);
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-left: .6em;
+}
+
+
+
+
+}
+
+
+
+
+}
+
+
